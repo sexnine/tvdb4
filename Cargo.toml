@@ -1,0 +1,19 @@
+[package]
+name        = "tvdb4"
+version     = "4.7.8"
+authors     = ["George Miao <gm@miao.dev>"]
+description = "Generated Rust bindings for TheTVDB API v4"
+repository  = "https://github.com/George-Miao/tvdb4"
+license     = "MIT"
+edition     = "2021"
+
+[dependencies]
+serde        = "1.0"
+serde_derive = "1.0"
+serde_json   = "1.0"
+url          = "2.2"
+uuid         = { version = "1.0", features = ["serde", "v4"] }
+
+[dependencies.reqwest]
+version  = "0.11"
+features = ["json", "multipart"]
