@@ -1,6 +1,6 @@
 [package]
 name        = "tvdb4"
-version     = "4.7.8"
+version     = "0.1.0"
 authors     = ["George Miao <gm@miao.dev>"]
 description = "Generated Rust bindings for TheTVDB API v4"
 repository  = "https://github.com/George-Miao/tvdb4"
