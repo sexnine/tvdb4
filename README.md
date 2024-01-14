@@ -25,7 +25,7 @@ Add following line to `Cargo.toml` of your project:
 
 ```toml
 [dependencies]
-tvdb4 = "4.7.8"
+tvdb4 = "0.1.0"
 ```
 
 ## Documentation for API Endpoints
