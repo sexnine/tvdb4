@@ -16,7 +16,8 @@ uuid         = { version = "1.0", features = ["serde", "v4"] }
 
 [dependencies.reqwest]
 version  = "0.11"
-features = ["json", "multipart"]
+features = ["http2", "rustls-tls-webpki-roots", "charset", "json", "multipart"]
+default-features = false
 
 [dev-dependencies]
 tokio = { version = "1.35.1", features = ["macros"] }
